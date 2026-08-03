@@ -67,54 +67,87 @@ export const portfolioData = {
 
   projects: [
     {
-      id: "sistema-gestion-empleados",
-      title: "Sistema de Gestión de Empleados",
-      category: "Desktop / Enterprise",
+      id: "sportnexus-platform",
+      title: "SportNexus Platform",
+      category: "Full Stack / Web Platform",
       featured: true,
-      description: "Aplicación de escritorio para la administración eficiente de personal, control de asistencia, gestión de roles y reportes automatizados.",
-      longDescription: "Sistema robusto desarrollado con Java y MySQL orientado a optimizar la gestión de recursos humanos. Implementa arquitectura limpia, manejo de transacciones en base de datos y una interfaz amigable construida con Java Swing.",
-      technologies: ["Java", "MySQL", "Java Swing", "POO", "JDBC"],
-      githubUrl: "https://github.com/sebastiantixe-hub",
+      description: "Plataforma web interactiva para la gestión y organización de eventos deportivos, integrando arquitectura moderna y consumo de APIs REST.",
+      longDescription: "Aplicación robusta desarrollada en TypeScript con React y Node.js. Permite la administración en tiempo real de torneos, equipos y estadísticas deportivas con interfaz responsiva de alto rendimiento.",
+      technologies: ["TypeScript", "React", "Node.js", "APIs REST", "Tailwind CSS"],
+      githubUrl: "https://github.com/sebastiantixe-hub/sportnexus-platform",
       liveUrl: null,
       stats: [
-        { label: "Lenguaje", value: "Java" },
-        { label: "Base de Datos", value: "MySQL" },
-        { label: "Interfaz", value: "Java Swing" }
+        { label: "Lenguaje", value: "TypeScript" },
+        { label: "Frontend", value: "React" },
+        { label: "Estado", value: "Público" }
       ],
-      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1517649763962-0c623266010b?q=80&w=1000&auto=format&fit=crop"
     },
     {
-      id: "sistema-mensajeria-whatsapp",
-      title: "Sistema de Mensajería con Integración a WhatsApp",
-      category: "Full Stack / Messaging",
+      id: "humanizador-tesis",
+      title: "Humanizador de Tesis con IA",
+      category: "Python / AI Tool",
       featured: true,
-      description: "Plataforma automatizada para el envío masivo y programado de notificaciones a través de la API de WhatsApp, con panel interactivo.",
-      longDescription: "Solución integral para automatización de comunicaciones corporativas. Incluye un dashboard dinámico en React para gestionar plantillas y programar envíos, con backend en Node.js integrando APIs REST en tiempo real.",
-      technologies: ["React", "Node.js", "APIs REST", "Express", "Tailwind CSS", "Render"],
-      githubUrl: "https://github.com/sebastiantixe-hub",
+      description: "Herramienta especializada para procesar, estructurar y humanizar textos e investigaciones académicas generados por inteligencia artificial.",
+      longDescription: "Solución backend en Python para análisis de texto y procesamiento de lenguaje natural. Aplica algoritmos de paráfrasis y reestructuración para mejorar la fluidez y coherencia académica de documentos.",
+      technologies: ["Python", "APIs REST", "NLP", "Algoritmos", "AI Integration"],
+      githubUrl: "https://github.com/sebastiantixe-hub/humanizador-tesis",
+      liveUrl: null,
+      stats: [
+        { label: "Lenguaje", value: "Python" },
+        { label: "Dominio", value: "IA / Procesamiento" },
+        { label: "Estado", value: "Público" }
+      ],
+      image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      id: "sistema-whassap-saas",
+      title: "Sistema de Mensajería & SaaS WhatsApp",
+      category: "Full Stack / SaaS Messaging",
+      featured: true,
+      description: "Plataforma automatizada para el envío masivo y programado de notificaciones mediante la integración a la API de WhatsApp.",
+      longDescription: "Sistema SaaS de automatización de mensajería empresarial desarrollado con TypeScript y Node.js. Incluye gestión de campañas, plantillas de mensajes y conectores con servicios backend desplegados en Render.",
+      technologies: ["TypeScript", "React", "Node.js", "APIs REST", "Express", "Render"],
+      githubUrl: "https://github.com/sebastiantixe-hub/sistema-whassap",
       liveUrl: "https://vercel.com",
       stats: [
-        { label: "Frontend", value: "React" },
+        { label: "Lenguaje", value: "TypeScript" },
         { label: "Backend", value: "Node.js" },
         { label: "Integración", value: "WhatsApp API" }
       ],
       image: "https://images.unsplash.com/photo-1611746872915-64382b5c76da?q=80&w=1000&auto=format&fit=crop"
     },
     {
-      id: "proximo-proyecto-1",
-      title: "API REST Empresarial con Spring Boot (En desarrollo)",
-      category: "Backend Microservices",
+      id: "ja-partners-website",
+      title: "JA Partners Website",
+      category: "Frontend / Web App",
       featured: false,
-      isPlaceholder: true,
-      description: "Próximo proyecto preparado para arquitectura de microservicios con Spring Boot, Spring Security y Docker.",
-      technologies: ["Java", "Spring Boot", "Docker", "PostgreSQL", "Swagger"],
+      description: "Sitio web corporativo e interactivo enfocado en la presentación de servicios empresariales con diseño responsivo.",
+      longDescription: "Desarrollado con JavaScript moderno, React y Tailwind CSS, priorizando tiempos de carga óptimos, diseño minimalista y experiencia de usuario fluida.",
+      technologies: ["JavaScript", "React", "Tailwind CSS", "Vercel"],
+      githubUrl: "https://github.com/sebastiantixe-hub/ja-partners-website",
+      liveUrl: null,
+      stats: [
+        { label: "Lenguaje", value: "JavaScript" },
+        { label: "Despliegue", value: "Vercel" }
+      ],
+      image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1000&auto=format&fit=crop"
+    },
+    {
+      id: "sistema-gestion-empleados",
+      title: "Sistema de Gestión de Empleados",
+      category: "Desktop / Enterprise",
+      featured: false,
+      description: "Aplicación de escritorio para la administración eficiente de personal, control de asistencia, gestión de roles y reportes.",
+      longDescription: "Sistema robusto desarrollado con Java y MySQL orientado a la gestión de recursos humanos. Implementa arquitectura limpia en POO y conexión JDBC a base de datos relacional.",
+      technologies: ["Java", "MySQL", "Java Swing", "POO", "JDBC"],
       githubUrl: "https://github.com/sebastiantixe-hub",
       liveUrl: null,
       stats: [
-        { label: "Framework", value: "Spring Boot" },
-        { label: "Estado", value: "En desarrollo" }
+        { label: "Lenguaje", value: "Java" },
+        { label: "Base de Datos", value: "MySQL" }
       ],
-      image: "https://images.unsplash.com/photo-1607799279861-4dd421887fb3?q=80&w=1000&auto=format&fit=crop"
+      image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=1000&auto=format&fit=crop"
     }
   ],
 
